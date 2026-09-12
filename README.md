@@ -83,10 +83,14 @@ Both notebooks include a confusion matrix visualization for a closer look at err
 ## 🚀 Getting Started
 
 ```bash
+# Clone the repo
 git clone https://github.com/pouya-abdoli/imdb-sentiment-analysis.git
+
+# Navigate into the project
 cd imdb-sentiment-analysis
+
+# Install dependencies
 pip install datasets scikit-learn transformers evaluate matplotlib torch
-jupyter notebook
 ```
 
 Then open either notebook and run all cells. The DistilBERT notebook benefits significantly from a GPU — expect much longer training times on CPU.
